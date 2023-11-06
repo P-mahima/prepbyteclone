@@ -11,7 +11,7 @@ app.use(cors({
     origin: '*'
 }))
 
-app.use('/route' , route)
+app.use('/user' , route)
 app.get('/', (req, res) => res.send('Hello World!'))
 
 const startConnection = async ()=>{

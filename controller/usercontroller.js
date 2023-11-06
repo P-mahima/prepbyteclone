@@ -19,6 +19,7 @@ const RegisterUser = async (req, res)=>{
             name: name,
             email: email,
             password: hashPassword,
+          
         })
 
         const result = await tempObj.save();
