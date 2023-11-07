@@ -1,5 +1,5 @@
 const { addProducts, addProductsToDb, fetchData, deleteProd } = require('../controller/MockTest')
-const { RegisterUser, LoginUser, dashboard } = require('../controller/userController')
+const { RegisterUser, LoginUser, dashboard } = require('../controller/usercontroller')
 const auth_middleware = require('../middleware/auth_middleware')
 const fullStackCourse = require('../ProductData.js/Fullstack')
 const MasterData = require('../ProductData.js/MasterData')
