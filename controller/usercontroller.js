@@ -65,6 +65,12 @@ const LoginUser = async (req, res)=>{
 
 }
 
+const dashboard = (req, res) => {
+    return res.send({
+      result: "You are Verify",
+    });
+  };
+
 module.exports = {
-    RegisterUser, LoginUser
+    RegisterUser, LoginUser, dashboard
 }

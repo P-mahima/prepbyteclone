@@ -37,9 +37,10 @@ const ProductSchema = new mongoose.Schema({
         type: String,
         // required: true,
     }
+  
 
 })
 
-const Product = mongoose.model("proData", ProductSchema);
+const Product = mongoose.model("Product", ProductSchema);
 
 module.exports = Product;

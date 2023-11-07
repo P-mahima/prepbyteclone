@@ -9,7 +9,8 @@ const MockData = (req, res)=>{
             "pip" : "1101",
             "part": "Participants",
             "time": "60 min",
-            "due" : "Duration"
+            "due" : "Duration",
+            "price":"700"
         },
         {
             "no" : 2,
@@ -20,7 +21,8 @@ const MockData = (req, res)=>{
             "pip" : "1015",
             "part": "Participants",
             "time": "60 min",
-            "due" : "Duration"
+            "due" : "Duration",
+            "price":"700"
         },
         {
             "no" : 3,
@@ -31,7 +33,8 @@ const MockData = (req, res)=>{
             "pip" : "2142",
             "part": "Participants",
             "time": "60 min",
-            "due" : "Duration"
+            "due" : "Duration",
+            "price":"700"
         },
         {
             "no" : 4,
@@ -42,7 +45,8 @@ const MockData = (req, res)=>{
             "pip" : "2410",
             "part": "Participants",
             "time": "60 min",
-            "due" : "Duration"
+            "due" : "Duration",
+            "price":"700"
         },
         {
             "no" : 5,
@@ -53,7 +57,8 @@ const MockData = (req, res)=>{
             "pip" : "2665",
             "part": "Participants",
             "time": "60 min",
-            "due" : "Duration"
+            "due" : "Duration",
+            "price":"700"
         },
         {
             "no" : 6,
@@ -64,7 +69,8 @@ const MockData = (req, res)=>{
             "pip" : "2440",
             "part": "Participants",
             "time": "60 min",
-            "due" : "Duration"
+            "due" : "Duration",
+            "price":"700"
         },
         {
             "no" : 7,
@@ -75,7 +81,8 @@ const MockData = (req, res)=>{
             "pip" : "2027",
             "part": "Participants",
             "time": "60 min",
-            "due" : "Duration"
+            "due" : "Duration",
+            "price":"700"
         },
         {
             "no" : 8,
@@ -86,7 +93,8 @@ const MockData = (req, res)=>{
             "pip" : "1930",
             "part": "Participants",
             "time": "60 min",
-            "due" : "Duration"
+            "due" : "Duration",
+            "price":"700"
         },
         {
             "no" : 9,
@@ -97,7 +105,8 @@ const MockData = (req, res)=>{
             "pip" : "2034",
             "part": "Participants",
             "time": "60 min",
-            "due" : "Duration"
+            "due" : "Duration",
+            "price":"200"
         },
         {
             "no" : 10,
@@ -108,7 +117,8 @@ const MockData = (req, res)=>{
             "pip" : "2564",
             "part": "Participants",
             "time": "120 min",
-            "due" : "Duration"
+            "due" : "Duration",
+            "price":"700"
         },
         {
             "no" : 11,
@@ -119,7 +129,8 @@ const MockData = (req, res)=>{
             "pip" : "1794",
             "part": "Participants",
             "time": "120 min",
-            "due" : "Duration"
+            "due" : "Duration",
+            "price":"700"
         },
         {
             "no" : 12,
@@ -130,7 +141,8 @@ const MockData = (req, res)=>{
             "pip" : "1719",
             "part": "Participants",
             "time": "120 min",
-            "due" : "Duration"
+            "due" : "Duration",
+            "price":"700"
         }
         
     ])

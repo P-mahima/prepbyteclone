@@ -1,4 +1,5 @@
-const Product = require("../Schema/ProductSchema");
+const Product = require("../model/MockTest");
+
 
 
 const addProducts = async (req, res) => {
