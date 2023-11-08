@@ -1,6 +1,7 @@
 const { addProducts, addProductsToDb, fetchData, deleteProd } = require('../controller/MockTest')
 const { RegisterUser, LoginUser, dashboard } = require('../controller/usercontroller')
 const auth_middleware = require('../middleware/auth_middleware')
+const elevationData = require('../ProductData.js/ElevationData')
 const fullStackCourse = require('../ProductData.js/Fullstack')
 const MasterData = require('../ProductData.js/MasterData')
 const MockData = require('../ProductData.js/MockData')
@@ -26,6 +27,7 @@ route.get("/dashboard",auth_middleware , dashboard);
 
 route.get('/fullstack' , fullStackCourse)
 route.get('/master' , MasterData)
+route.get('/elevation', elevationData)
 
 
 
