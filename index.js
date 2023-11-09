@@ -56,8 +56,8 @@ app.post("/api/create-checkout-session", async (req, res) => {
       payment_method_types: ["card"],
       line_items: lineItems,
       mode: "payment",
-      success_url: "https://654b4233521213046291b9c8--tangerine-cucurucho-ca9b76.netlify.app/dashboard",
-      cancel_url: "https://654b4233521213046291b9c8--tangerine-cucurucho-ca9b76.netlify.app/cancel",
+      success_url: "https://prep-bytes.vercel.app/dashboard",
+      cancel_url: "https://prep-bytes.vercel.app/cancel",
   
     });
     res.json({id:session.id})
