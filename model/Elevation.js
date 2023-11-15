@@ -6,6 +6,9 @@ const elevationSchema = new mongoose.Schema({
     },
     price:{
         type:Number
+    },
+    image:{
+        type:String
     }
 })
 

@@ -6,6 +6,9 @@ const fullstackSchema = new mongoose.Schema({
     },
     price:{
         type:Number
+    },
+    image:{
+        type:String
     }
 })
 

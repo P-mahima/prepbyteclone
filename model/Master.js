@@ -6,6 +6,9 @@ const masterSchema = new mongoose.Schema({
     },
     price:{
         type:Number
+    },
+    image:{
+        type:String
     }
 })
 
