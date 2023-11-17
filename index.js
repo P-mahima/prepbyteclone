@@ -56,10 +56,13 @@ app.post("/api/create-checkout-session", async (req, res) => {
       payment_method_types: ["card"],
       line_items: lineItems,
       mode: "payment",
-      success_url: "https://prep-bytes.vercel.app/dashboard",
-      cancel_url: "https://prep-bytes.vercel.app/cancel",
+      success_url: "http://localhost:3000/dashboard",
+
+      cancel_url: "http://localhost:3000/cancel",
   
     });
     res.json({id:session.id})
   });
 
+// http://localhost:3005/
+// cancel_url: "https://prep-bytes.vercel.app/cancel",
